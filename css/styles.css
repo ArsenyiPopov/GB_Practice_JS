@@ -1,0 +1,169 @@
+
+@import url('https://fonts.cdnfonts.com/css/roboto');
+@import url('https://fonts.cdnfonts.com/css/robotop');
+@import url('https://fonts.cdnfonts.com/css/nevolasty');
+
+a,p,h1,h2 {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    margin: 0;
+}
+.body {
+    
+    
+}
+
+/* header start */
+
+
+.header_conteiner {
+   background-color: black;
+    padding-top: 10px;
+}
+.conteiner {
+    padding-right: 20px;
+  padding-left:  20px;
+}
+
+.nav_menu {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+
+.logo_link {
+    font-family: 'Nevolasty', sans-serif;
+    font-size: 30px;
+    font-weight: 100;
+    text-decoration: none;
+}
+
+.logo_pic {
+    height: 100px;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu_item {
+    margin-right: 90px;
+}
+.menu_item:last-child {
+    margin-right: 0;
+}
+.menu {
+    list-style-type: none;
+}
+.menu_link {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    }
+.menu_link:hover {
+    color: #ccf7d9;
+}  
+.menu_link:focus {
+    color: #ccf7d9;
+}  
+.menu_link:active {
+    color: #92e3a9;
+}  
+
+/* header end */
+
+
+/* main_block start */
+
+.main_block {
+    background-color: black;
+    
+    
+}
+
+
+.main_info {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 100px;
+    font-size: 30px;
+    padding-bottom: 100px;
+}
+
+.main_call {
+    color: #ccf7d9; 
+    font-size: 100px;
+}
+.main_btn {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    margin-top: 30px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+.main_btn:focus {
+    background-color: #ccf7d9;
+}
+.main_btn:hover {
+    background-color: #ccf7d9; ;
+}
+.main_pic {
+    height: 400px;
+}
+
+/* main_block end */
+
+/* idea start */
+
+
+.idea_stack {
+    
+    position: relative;
+      background-color: #0000a8;
+      padding-bottom: 300px;
+  }
+  .idea_stack__ticker {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .idea_stack__ticker__wrapper {
+    display: flex;
+    border-bottom: white;
+    border-style: solid;
+  }
+  
+  .idea_stack__ticker__item {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 10px;
+    white-space: nowrap;
+    flex-shrink: 0;
+    padding: 10px 10px;
+    animation: idea_stack__ticker 1s linear infinite;
+   /* -webkit-text-stroke: 1px #FFF;*/
+    color: white;
+  }
+  
+  @keyframes idea_stack__ticker {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+  }
+  
+/* idea end */
+
+/* Дополнительные классы стиля для JS start*/
+.gold {
+    color: gold;
+    font-size: 100px;
+}
+
+/* Дополнительные классы стиля для JS end*/
