@@ -33,9 +33,9 @@ a,p,h1,h2 {
 
 
 .logo_link {
-    font-family: 'Nevolasty', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 30px;
-    font-weight: 100;
+    font-weight: lighter;
     text-decoration: none;
 }
 
@@ -63,13 +63,13 @@ a,p,h1,h2 {
     font-size: 16px;
     }
 .menu_link:hover {
-    color: #ccf7d9;
+    color: #dddddd;
 }  
 .menu_link:focus {
-    color: #ccf7d9;
+    color: #dddddd;
 }  
 .menu_link:active {
-    color: #92e3a9;
+    color: #dddddd;
 }  
 
 /* header end */
@@ -89,12 +89,12 @@ a,p,h1,h2 {
     justify-content: space-around;
     padding-top: 100px;
     font-size: 30px;
-    padding-bottom: 100px;
+    padding-bottom: 200px;
 }
 
 .main_call {
-    color: #ccf7d9; 
-    font-size: 100px;
+    color: #a5c7ff; 
+    font-size: 120px;
 }
 .main_btn {
     font-family: 'Roboto', sans-serif;
@@ -104,13 +104,13 @@ a,p,h1,h2 {
     border-radius: 10px;
 }
 .main_btn:focus {
-    background-color: #ccf7d9;
+    background-color: #dddddd;
 }
 .main_btn:hover {
-    background-color: #ccf7d9; ;
+    background-color: #dddddd; ;
 }
 .main_pic {
-    height: 400px;
+    height: 300px;
 }
 
 /* main_block end */
@@ -122,7 +122,7 @@ a,p,h1,h2 {
     
     position: relative;
       background-color: #0000a8;
-      padding-bottom: 300px;
+      padding-bottom: 600px;
   }
   .idea_stack__ticker {
     position: relative;
@@ -167,3 +167,4 @@ a,p,h1,h2 {
 }
 
 /* Дополнительные классы стиля для JS end*/
+
